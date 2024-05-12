@@ -1,0 +1,66 @@
+html {
+    width: calc(100vw - 100px);
+    min-height: calc(100vh - 100px);
+    
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .episode {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    min-width: 300px;
+    max-width: 400px;
+    text-align: center;
+    transition: background-color 0.5s ;
+  }
+  
+  .episode:hover {
+    background-color: white;
+  }
+  
+  .episodeBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  .addons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .addons1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .button {
+    display: block;
+    width: 400px;
+    height: 100px;
+    border-radius: 55px;
+  }
+  

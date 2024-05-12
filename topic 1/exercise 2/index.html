@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='ru'>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+            crossorigin="anonymous">
+        <script defer src="./form-validation.js"></script>
+    </head>
+    <body>
+        <div class="form">
+            <h2>Форма для ввода</h2>
+            <form id="inputForm">
+                <div class="fist-name">
+                    <label for="firstName" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="last-name">
+                    <label for="lastName" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="middle-name">
+                    <label for="middleName" class="form-label">Отчество</label>
+                    <input type="text" class="form-control" id="middleName">
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+            <div id="output" class="output"></div>
+        </div>
+    </body>
+</html>
